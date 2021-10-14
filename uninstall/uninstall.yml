@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: epinio-uninstaller
+  namespace: kube-system
+spec:
+  backoffLimit: 0
+  template:
+    metadata:
+      name: epinio-uninstaller
+    spec:
+      restartPolicy: Never
+      serviceAccountName: epinio-installer
+      containers:
+      - name: uninstall
+        image: suse.dev/epi-install:latest
+        imagePullPolicy: IfNotPresent
+        command:
+          - epinio
+        args:
+          - uninstall
+
