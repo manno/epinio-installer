@@ -1,7 +1,5 @@
 FROM alpine
 
-# Ignore to update versions here
-# docker build --no-cache --build-arg KUBECTL_VERSION=${tag} --build-arg HELM_VERSION=${helm} --build-arg KUSTOMIZE_VERSION=${kustomize_version} -t ${image}:${tag} .
 ARG HELM_VERSION=3.7.0
 ARG KUBECTL_VERSION=1.22.2
 
