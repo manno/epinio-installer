@@ -36,7 +36,7 @@ jobs:
           platforms: linux/amd64, linux/arm64
           push: true
           tags: |
-            ghcr.io/epinip/epinio-installer:latest
+            ghcr.io/manno/epinio-installer:latest
           build-args: |
             ARG HELM_VERSION=3.7.0
             ARG KUBECTL_VERSION=1.22.2

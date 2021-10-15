@@ -13,7 +13,7 @@ spec:
       serviceAccountName: epinio-installer
       containers:
       - name: uninstall
-        image: suse.dev/epi-install:latest
+        image: ghcr.io/manno/epinio-installer:latest
         imagePullPolicy: IfNotPresent
         command:
           - epinio
