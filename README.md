@@ -1,14 +1,22 @@
-# How to use
+# Epinio Install Experiments
 
-    kubectl apply -f install/
+## Building the Image Locally
 
-# Build Helm
+See .github/workflows/container-images.yml
+
+    docker build -t  ghcr.io/manno/epinio-installer:latest .
+    k3d image import  ghcr.io/manno/epinio-installer:latest
+
+## Option: Kubernetes Job
+
+    kubectl apply -f fleet/install/
+
+
+## Option: Helm
 
     helm package chart
     helm install epi epinio-0.0.0.tgz
 
-# Building Locally
+## Option: Rancher Fleet
 
-    docker build -t  ghcr.io/manno/epinio-installer:latest .
-    k3d image import  ghcr.io/manno/epinio-installer:latest
-    kubectl apply -f install/
+    kubectl apply -f fleet/cr-fleet-install.yml
