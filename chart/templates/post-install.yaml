@@ -33,3 +33,5 @@ spec:
           - epinio
         args:
           - install
+          - --system-domain
+          - "{{ .Values.domain }}"

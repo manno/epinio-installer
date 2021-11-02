@@ -3,9 +3,9 @@ entries:
   epinio:
   - apiVersion: v1
     appVersion: 0.0.0
-    created: "2021-11-02T15:25:54.855515+01:00"
+    created: "2021-11-02T15:35:26.213003+01:00"
     description: From app to URL in one command
-    digest: 25bb7aeb0ccf37e9d57358656b7edd9f6ee9236ccd00861130d511ca8daadc69
+    digest: a78ea75116b55e4dd47694983e38a72146610419ee84194a2073a14cff82c164
     home: https://github.com/epinio/epinio
     icon: https://github.com/epinio/epinio/blob/main/docs/epinio.png?raw=true
     keywords:
@@ -20,4 +20,4 @@ entries:
     urls:
     - epinio-0.0.0.tgz
     version: 0.0.0
-generated: "2021-11-02T15:25:54.855028+01:00"
+generated: "2021-11-02T15:35:26.212352+01:00"
