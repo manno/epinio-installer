@@ -7,7 +7,7 @@ entries:
     description: From app to URL in one command
     digest: 800ddad241ddb82672c50da45a18c4609ed4e132cd17e216a06801817fb9bf93
     home: https://github.com/epinio/epinio
-    icon: https://raw.githubusercontent.com/epinio/epinio/main/docs/epinio.svg
+    icon: https://github.com/epinio/epinio/blob/main/docs/epinio.png?raw=true
     keywords:
     - epinio
     - paas
