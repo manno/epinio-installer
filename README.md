@@ -20,3 +20,7 @@ See .github/workflows/container-images.yml
     docker build -t  ghcr.io/manno/epinio-installer:latest .
     k3d image import  ghcr.io/manno/epinio-installer:latest
 
+## Release
+
+    helm package chart -d repo
+    helm repo index repo
