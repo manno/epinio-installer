@@ -1,0 +1,9 @@
+categories:
+  - domain
+questions:
+  - variable: domain
+    default: ""
+    description: "Specify the system domain"
+    type: string
+    label: system domain
+    group: "installation settings"
