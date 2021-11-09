@@ -1,5 +1,5 @@
 helm:
-  releaseName: epinio-fleet
+  releaseName: epinio
 
   chart: "epinio"
   repo: "https://epinio.github.io/epinio-helm-chart"
