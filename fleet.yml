@@ -1,0 +1,14 @@
+helm:
+  releaseName: epinio
+
+  chart: "epinio"
+  repo: "https://epinio.github.io/epinio-helm-chart"
+  version: "0.1.12"
+
+  force: false
+  timeoutSeconds: 0
+
+  # see also
+  # https://fleet.rancher.io/gitrepo-structure/#per-cluster-customization
+  values:
+    domain: "myfleet.example.suse.dev"
